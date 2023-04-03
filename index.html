@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Homepage</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body>
+    <header class=" bg-cyan-700 body-font">
+
+        <ul class="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
+
+            <li><a href="./" class="flex title-font font-medium items-center text-white mb-4 md:mb-0">
+
+                    <span class="ml-3 text-xl">Support Desk</span>
+                </a></li>
+            <nav class="md:ml-auto flex flex-wrap items-center text-base justify-center">
+                <li><button type="button"
+                        class=" mr-5 cursor-pointer text-white bg-gray-800 hover:bg-gray-900 focus:outline-none focus:ring-4 focus:ring-gray-300 font-medium rounded-lg text-sm px-6 py-2.5  dark:bg-gray-800 dark:hover:bg-gray-700 dark:focus:ring-gray-700 dark:border-gray-700">Logout</button>
+                </li>
+                <li><a class="mr-5 cursor-pointer hover:text-white">Login</a></li>
+                <li><a class="mr-5 cursor-pointer hover:text-white">Register</a></li>
+            </nav>
+        </ul>
+
+
+
+    </header>
+
+    <section class="text-center flex flex-col justify-center content-center mt-24 ">
+        <div>
+            <h1 class=" text-6xl font-extrabold dark:text-black">What do you need help with?</h1>
+            <h3 class=" text-4xl mt-2 font-extrabold dark:text-black">Please choose from an option below</h3>
+            <button type="button"
+                class="py-2.5 px-5 mt-9 w-4/5 mr-2 mb-2 text-l  font-bold text-black focus:outline-none bg-white rounded border border-gray-200 hover:bg-cyan-900 hover:text-blue-700 focus:z-10 focus:ring focus:ring-gray-200 dark:focus:ring-gray-700   dark:border-gray-600 dark:hover:text-white dark:hover:bg-gray-700">Create
+                New Ticket</button>
+            <button type="button"
+                class="py-2.5 px-5 mt-3 w-4/5 mr-2 mb-2 text-l  font-bold text-white focus:outline-none bg-cyan-900 rounded border border-gray-200 hover:bg-gray-500 hover:text-blue-700 focus:z-10 focus:ring focus:ring-gray-200 dark:focus:ring-gray-700   dark:border-gray-600 dark:hover:text-white dark:hover:bg-gray-700">View
+                My Tickets</button>
+        </div>
+    </section>
+</body>
+
+</html>
